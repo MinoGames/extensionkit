@@ -168,7 +168,7 @@ class ExtensionKit
     
     private static function VerifyDirectoryExists(path:String) : String
     {
-        #if !flash
+        #if (!flash && !html5)
         if (!sys.FileSystem.exists(path))
         {
             sys.FileSystem.createDirectory(path);
