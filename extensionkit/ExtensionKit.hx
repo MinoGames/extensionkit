@@ -1,10 +1,10 @@
 package extensionkit;
 
 import extensionkit.event.ExtensionKitTestEvent;
-import openfl.events.Event;
-import openfl.events.IEventDispatcher;
-import openfl.display.Sprite;
-import openfl.display.Stage;
+import flash.events.Event;
+import flash.events.IEventDispatcher;
+import flash.display.Sprite;
+import flash.display.Stage;
 import haxe.Json;
 import lime.system.System;
 import openfl.utils.Timer;
