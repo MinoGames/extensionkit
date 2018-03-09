@@ -7,8 +7,8 @@ import flash.display.Sprite;
 import flash.display.Stage;
 import haxe.Json;
 import lime.system.System;
-import openfl.utils.Timer;
-import openfl.events.TimerEvent;
+import flash.utils.Timer;
+import flash.events.TimerEvent;
 
 #if cpp
 import cpp.Lib;
